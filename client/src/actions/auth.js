@@ -82,5 +82,5 @@ export const login = (email, password) => async (dispatch) => {
   }
 };
 
-// Logout / clear profile
+// Logout
 export const logout = () => ({ type: LOGOUT });
